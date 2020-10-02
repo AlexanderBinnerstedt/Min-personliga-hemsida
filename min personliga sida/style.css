@@ -1,0 +1,69 @@
+html {
+  background-image: url(bilder/bakgrundsbild.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.merommig {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+body {
+  font-family: "Piazzolla", serif;
+  color: white;
+  text-align: center;
+}
+
+header {
+  border-style: solid;
+  border-radius: 25px;
+  border-color: darkcyan;
+  border-width: 5px;
+  margin: 10px;
+}
+
+.headmainbilder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainrubriker {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+h1,
+h2 {
+  margin: 0px;
+  padding: 20px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  border-style: solid;
+  border-radius: 25px;
+  border-color: darkcyan;
+  border-width: 5px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
